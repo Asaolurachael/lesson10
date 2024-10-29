@@ -1,0 +1,53 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: chocolate;
+    color: chartreuse;
+}
+
+h1 {
+   color: goldenrod;
+}
+
+p {
+    color: maroon;
+    text-decoration: none;
+}
+
+a:hover{
+    color: gold;
+}
+
+ul > li {
+    font-weight: bolder;
+}
+
+h1 + p {
+    background-color: maroon;
+    padding: 11px;
+    border-radius: 3px;
+}
+
+ul li:hover {
+    color: orangered;
+}
+
+ul li:nth-child(3) {
+    background-color: olive;
+}
+
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+ul li::before {
+    content: "🦅";
+}
+
+a::after {
+    content: "🦆";
+}
+
+p::first-letter{
+    font-size: 30px;
+    color: firebrick;
+}
